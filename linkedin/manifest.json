@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Feed Blocker",
+  "version": "1.0",
+  "description": "Blocks LinkedIn's social feed by automatically redirecting to the jobs page, helping users focus on job opportunities instead of distractions.",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "*://www.linkedin.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://www.linkedin.com/", "*://www.linkedin.com/feed/"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "16": "liicon16.png",
+    "48": "liicon48.png",
+    "128": "liicon128.png"
+  }
+}

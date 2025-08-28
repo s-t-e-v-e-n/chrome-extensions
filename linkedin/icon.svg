@@ -1,0 +1,13 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="64" fill="#0077B5"/>
+  
+  <!-- LinkedIn 'in' text -->
+  <text x="64" y="78" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">in</text>
+  
+  <!-- Red prohibition circle -->
+  <circle cx="64" cy="64" r="58" fill="none" stroke="#FF0000" stroke-width="8"/>
+  
+  <!-- Red diagonal line -->
+  <line x1="22" y1="22" x2="106" y2="106" stroke="#FF0000" stroke-width="8" stroke-linecap="round"/>
+</svg>
